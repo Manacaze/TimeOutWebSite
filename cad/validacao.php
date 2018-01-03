@@ -1,0 +1,1 @@
+<img src="localhost/fatimaconserto/cadastroSistema/cadastro.php?nome=Nelzio&login=nelzio&email=nelzio@gmail.com&senha=12344321" alt="">

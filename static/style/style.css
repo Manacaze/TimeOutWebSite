@@ -1,0 +1,190 @@
+html{
+	background-color: #fff;
+}
+
+#icons{
+	background-color: #000;
+	height: 35px;
+	border-radius: 100rem;
+	width: 35px;
+	margin-bottom: auto;
+	margin-top: auto;
+	
+	
+}
+
+ul#iconsList{
+	position: absolute;
+	top: 8px;
+                left: 800px
+}
+ul#iconsList li{
+	
+	display: inline-block;
+}
+
+#icons a img{
+	height: 35px;
+width: 35px;
+}
+/*Nav bar*/
+
+.navbar-costom{
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #1d1d1d;
+	padding-top: auto;
+	
+}
+
+.navbar-costom li a{
+	color: #fff;
+	transition: 1s;
+	text-align: center;
+	
+}
+
+.navbar-costom ul{
+	margin-left: 150px;
+	margin-right: auto;
+}
+
+.navbar-costom li a:hover, .navbar-costom li a:focus{
+	text-align: center;
+	text-decoration: none;
+	background-color: #000;
+	color: #f00;
+	transition: 1s;
+	border-color: transparent;
+}
+
+
+
+
+
+.navbar-costom .navbar-header{
+}
+
+button .navbar-toggle{
+	background-color: #000;
+}
+
+
+/*Nav Bar end*/
+
+
+/*main*/
+main{
+	margin-top: 50px;
+	background-position: center center;
+}
+
+/*Home*/
+#top{
+	background-image: url(../img/Components/Background/background.jpg);
+
+
+}
+
+.home-section {
+  position: relative;
+  background-color: #f1f;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  z-index: 0;
+  background-size: cover;
+}
+
+.full-height{
+	height: 600px;
+	width: 100%;
+	background-color: #92879c;
+	background-size: cover;
+}
+
+/*Home end*/
+
+/*Service*/
+h2{
+	text-align: center;
+}
+
+#service{
+	text-align: center;
+}
+
+.service{
+	height: 300px;
+	/*margin-right: 10px;
+	margin-left: 10px;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.service img{
+	position: relative;
+	height: 300px;
+	width: 100%;
+}
+
+.col-offset{
+	margin-left: 140px;
+	margin-right: 0px;
+}
+
+.col-md-5, .col-md-6, .col-md-4{
+	/*background-color: #f1f1f1;*/
+}
+/*Service end*/
+
+
+/*team*/
+
+section#team{
+	margin-top: 50px;
+	padding-top: 50px;
+	
+	background-color: rgb(41,41,41);
+	color: #fff;
+}
+
+div.team img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50rem;
+	background-color: #fff;
+	text-align: center;
+
+}
+
+div.team#nelzio img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50rem;
+	background-color: rgb(41,41,41);
+	text-align: center;
+
+}
+
+div.team{
+	text-align: center;
+	font-size: 18px;
+
+}
+/*end team*/
+
+/*contact and about*/
+section#contact{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+	background-color: rgb(41,41,41);
+	color: #fff;
+}
+
+input{
+	border-color: red;
+}
+/*main*/
